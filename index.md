@@ -1,0 +1,224 @@
+
+
+
+
+
+
+## [Plakar Blog](https://www.plakar.io/posts/index.md)
+
+- [Take a Glance: Plakar's OpenStack backup is now free in Plakar Community](https://www.plakar.io/posts/2026-10-22/backing-up-openstack-with-plakar/index.md): Plakar&rsquo;s OpenStack backup is now free in Plakar Community (OSS): back up and restore Cinder volumes and Nova servers through the OpenStack APIs. No agent. Encrypted and deduplicated.
+- [Backing up MongoDB with Plakar](https://www.plakar.io/posts/2026-10-13/backing-up-mongodb-with-plakar/index.md): Plakar now backs up MongoDB. One package, a connection string, and your collections land encrypted and deduplicated in a store you own. Our first NoSQL database, after PostgreSQL, MySQL, MariaDB and SQL Server.
+- [Backing up VMware for free with Plakar OSS](https://www.plakar.io/posts/2026-10-08/backing-up-vmware-with-plakar-oss/index.md): Plakar&rsquo;s VMware integration, previously only in the Plakar Control Plane, is now available in Plakar OSS: free for registered Plakar users, with encrypted, deduplicated backups of running VMs stored in an open, portable format.
+- [Resilience as Code, because backup should be Infrastructure.](https://www.plakar.io/posts/2026-09-23/resilience-as-code-kubernetes-operator/index.md): Backup is the last layer of your stack still clicked into a console. The Plakar Kubernetes Operator makes it code: declare resilience as Custom Resources, reconciled from Git, for everything you run.
+- [Agentless VSS and SQL Server backup now available in Plakar](https://www.plakar.io/posts/2026-09-08/agentless-vss-sql-server-backup/index.md): VSS and SQL Server backups are now free for registered Plakar users: agentless over SSH, encrypted and deduplicated into an open, portable Kloset store. The connectors are closed source, built for Control Plane. Active Directory recovery is a Plakar Control Plane capability.
+- [Build a Docs Wayback Machine with Astro](https://www.plakar.io/posts/2026-09-07/docs-wayback-machine/index.md): Serve any past version of your documentation at a URL, decrypted from a Plakar snapshot on demand, with pages, images, and PDFs restored version-correct.
+- [Plakar v1.1.5 is out](https://www.plakar.io/posts/2026-09-06/plakar-v1.1.5-is-out/index.md): plakar v1.1.5 is out: a security-focused patch release. Unencrypted stores are now refused unless you explicitly opt in, plugins are signature-checked at install time, and the HTTP store and server got hardened. Fully backward compatible, nothing to migrate.
+- [10 Reasons You Need an Independent, Offsite Backup in 2026](https://www.plakar.io/posts/2026-08-12/independent-backup-reasons/index.md): Cloud storage isn&rsquo;t a backup strategy. 10 reasons you need an independent, offsite backup you control, from ransomware and rogue AI agents to climate, conflict, and storage cost.
+- [Portable Backups for Managed Postgres with pg_dump and Plakar](https://www.plakar.io/posts/2026-07-17/portable-backups-for-managed-postgres-with-pgdump-and-plakar/index.md): Managed Postgres backups can&rsquo;t be downloaded. Here&rsquo;s how Plakar wraps pg_dump into encrypted and deduplicated snapshots you can own.
+- [Plakar Control Plane is now on AWS Marketplace: Resilience on your terms](https://www.plakar.io/posts/2026-07-10/plakar-control-plane-aws-marketplace/index.md): Plakar Control Plane, the self-hosted backup management platform built on open-source Plakar, is now available on AWS Marketplace. Deploy it in your own AWS account in a few clicks; your backup data never leaves your environment.
+- [Introducing the Plakar Control Plane free plan: Open Resilience for everyone, deployed on your terms](https://www.plakar.io/posts/2026-06-24/introducing-plakar-control-plane-free-plan/index.md): We&rsquo;re launching a free plan for our first commercial product, Plakar Control Plane — a self-hosted backup management platform built on top of open-source Plakar. Fully functional, no time limit, deployed on infrastructure you own.
+- [Plakar v1.1.3 is here](https://www.plakar.io/posts/2026-06-16/plakar-v1.1.3-is-here/index.md): After a long beta and three release candidates, plakar v1.1.3 is finally out. It is the biggest release we have shipped so far: faster restores, much lower memory usage, a smaller cache footprint, a brand new terminal UI, better mounting, a new package manager, simpler integration interfaces, and a far more reliable execution model now that the agent is gone and cached has taken its place. It is stable, fully backward compatible, and ready for production.
+- [go-cdc-chunkers v1.1.0: faster, leaner, and provably correct](https://www.plakar.io/posts/2026-06-14/go-cdc-chunkers-v1.1.0-faster-leaner-and-provably-correct/index.md): go-cdc-chunkers v1.1.0 lands with a new spec-faithful JC variant topping the benchmarks at 3.7 GB/s, a caller-owned buffer API that cuts peak memory by a third and allocations by ~100×, 100% test coverage, fuzzing, and cross-language conformance vectors. Here is what changed and why it matters for Plakar.
+- [The Plakar Frontend, Explained](https://www.plakar.io/posts/plakar-ui-series/index.md): A series for backend developers exploring the Plakar UI tech stack: pnpm, Turborepo, React, TypeScript, Zod, TanStack Query/Form/Table/Router, React Aria Components, Storybook, testing, and the frontend build pipeline.
+- [Backing Up 12 Months of Wikipedia Data with Plakar](https://www.plakar.io/posts/2026-05-22/backing-up-12-months-of-wikipedia-with-plakar/index.md): We backed up 12 months of English Wikipedia dumps into a single Kloset store, using deduplication and content-defined chunking to drastically reduce storage usage.
+- [Backing up PostgreSQL with Plakar](https://www.plakar.io/posts/2026-04-03/backing-up-postgresql-with-plakar/index.md): We built a PostgreSQL integration for Plakar that covers both logical backups (pg_dump / pg_dumpall) and physical backups (pg_basebackup), making database backups as straightforward as any other Plakar backup: no scripts, no glue code.
+- [Backing up Proxmox with Plakar: a third-party integration built in a few days](https://www.plakar.io/posts/2026-03-16/backing-up-proxmox-with-plakar-a-third-party-integration-built-in-a-few-days/index.md): The team at FactorFX built a Proxmox integration for Plakar that wraps Proxmox’s native vzdump backups and stores them as deduplicated Plakar snapshots, making VM and container backups portable, encrypted, and easy to restore across clusters.
+- [Backing up kubernetes clusters with Plakar](https://www.plakar.io/posts/2026-02-18/backing-up-kubernetes-clusters-with-plakar/index.md): We built a Kubernetes integration for Plakar that backs up clusters at three levels: etcd (disaster recovery), manifests (granular restore and inspection), and persistent volumes (via CSI snapshots). This enables full cluster recovery, fine-grained restores, and data portability across environments.
+- [Storing backups in an OCI registry](https://www.plakar.io/posts/2026-02-07/storing-backups-in-an-oci-registry/index.md): After a podcast discussion, we implemented an OCI registry storage backend. This article discusses the concept and showcases our proof of concept.
+- [Plakar v1.1.0-beta: the foundation for what’s next](https://www.plakar.io/posts/2026-01-26/plakar-v1.1.0-beta-the-foundation-for-whats-next/index.md): plakar v1.1.0-beta marks a major step forward, with significant performance gains, architectural simplifications, and powerful new user-facing features. From faster backups and restores to better mounting, cleaner integrations, and a more reliable execution model, this release lays solid foundations for what comes next. The beta is stable, backward compatible, and ready to be explored.
+- [Researching a PostgreSQL viewer for Plakar](https://www.plakar.io/posts/2026-01-11/researching-a-postgresql-viewer-for-plakar/index.md): An R&amp;D exploration of adding a PostgreSQL viewer to the Plakar UI, comparing filesystem-based approaches with block-level copy-on-write using qcow2.
+- [Plakar joins the Linux Foundation and Cloud Native Computing Foundation](https://www.plakar.io/posts/2026-01-07/plakar-joins-the-linux-foundation-and-cloud-native-computing-foundation/index.md): We are proud to announce that Plakar has officially joined the Linux Foundation and the CNCF as a member, marking a pivotal step in establishing an Open Standard for Resilience.
+- [Release v1.0.6 — Bugfix and memory usage improvement](https://www.plakar.io/posts/2025-11-30/release-v1.0.6-bugfix-and-memory-usage-improvement/index.md): v1.0.6 brings a few bugfixes and huge memory usage improvements.
+- [Release v1.0.5 — Refinements, Hooks & Build Improvements](https://www.plakar.io/posts/2025-10-15/release-v1.0.5-refinements-hooks-build-improvements/index.md): v1.0.5 is here! This release focuses on build improvements, UI updates, smarter pipelines, new hook capabilities, and various maintenance enhancements.
+- [Falsehoods Engineers belief about backup](https://www.plakar.io/posts/2025-09-17/falsehoods-engineers-believe-about-backup/index.md): Falsehoods Engineers belief about backup
+- [Release v1.0.4 — A new milestone for Plakar](https://www.plakar.io/posts/2025-09-16/release-v1.0.4-a-new-milestone-for-plakar/index.md): Plakar v1.0.4 introduces pre-packaged binaries, a new plugin system for integrations, smarter caching, policy-based lifecycle management, UI refinements, and major performance boosts — marking a milestone release for the platform.
+- [Back up Notion? Yes, you can.](https://www.plakar.io/posts/2025-07-17/back-up-notion-yes-you-can./index.md): With our new Notion integration, plakar can now snapshot and restore workspaces directly — docs, databases, and more. No hacks. Just data.
+- [go-kloset-sdk is live!](https://www.plakar.io/posts/2025-07-15/go-kloset-sdk-is-live/index.md): want to craft a ptar archive but you don&rsquo;t need a full-fledged backup solution ? here comes kapsul, our ptar-specific tool, providing all you need from building to restoring and inspecting.
+- [Introducing go-cdc-chunkers: chunk and deduplicate everything](https://www.plakar.io/posts/2025-07-11/introducing-go-cdc-chunkers-chunk-and-deduplicate-everything/index.md): We released go-cdc-chunkers, our open source library to provide Content-Defined Chunking. Here&rsquo;s why deduplication is important.
+- [Kapsul: a tool to create and manage deduplicated, compressed and encrypted PTAR vaults](https://www.plakar.io/posts/2025-07-07/kapsul-a-tool-to-create-and-manage-deduplicated-compressed-and-encrypted-ptar-vaults/index.md): want to craft a ptar archive but you don&rsquo;t need a full-fledged backup solution ? here comes kapsul, our ptar-specific tool, providing all you need from building to restoring and inspecting.
+- [Technical deep dive into .ptar: replacing .tgz for petabyte-scale S3 archives](https://www.plakar.io/posts/2025-06-30/technical-deep-dive-into-.ptar-replacing-.tgz-for-petabyte-scale-s3-archives/index.md): .tgz made sense in 1994, but today we need archiving that supports deduplication, encryption, S3, and zero trust. here’s why we built .ptar.
+- [It doesn't make sense to wrap modern data in a 1979 format, introducing .ptar](https://www.plakar.io/posts/2025-06-27/it-doesnt-make-sense-to-wrap-modern-data-in-a-1979-format-introducing-.ptar/index.md): .ptar is our own archive format, a self-contained kloset, a container for your data. You end up with a standalone file that provides deduplication, compression, encryption, with all of the fancy features of a kloset store!
+- [Plakar v1.0.2 was released: mostly S3 improvements!](https://www.plakar.io/posts/2025-06-03/plakar-v1.0.2-was-released-mostly-s3-improvements/index.md): Plakar v1.0.2 adds an automatic security check for new critical releases. It also fixes relative-path resolution when using an agent, plus delivers dramatic S3 performance and memory improvements for faster, more reliable backups.
+- [Introducing Plakar v1.0 to redefine Open-Source Data Protection with $3M funding](https://www.plakar.io/posts/2025-05-01/introducing-plakar-v1.0-to-redefine-open-source-data-protection-with-3m-funding/index.md): Immutable, queryable, encrypted snapshots with context and integrity — Kloset redefines how data is stored, verified, and reused
+- [Kloset: the immutable data store](https://www.plakar.io/posts/2025-04-29/kloset-the-immutable-data-store/index.md): Immutable, queryable, encrypted snapshots with context and integrity — Kloset redefines how data is stored, verified, and reused
+- [A Short history of backup](https://www.plakar.io/posts/2025-03-31/a-short-history-of-backup/index.md): From magnetic tapes to immutable snapshots, how backups evolved into strategic, queryable, open tools ready for modern data challenges
+- [Plakar 1.0.1-beta.13 out!](https://www.plakar.io/posts/2025-03-19/plakar-1.0.1-beta.13-out/index.md): New UI filters, timeline navigation, S3 and FTP support, checkpointing, and performance boosts in Plakar’s latest beta release
+- [Plakar beta.4 and upcoming features](https://www.plakar.io/posts/2025-03-08/plakar-beta.4-and-upcoming-features/index.md): New UI previews, performance boosts, SFTP fixes, CLI testing, packaging on BSDs—beta.4 refines Plakar while previewing what’s next
+- [Audit of Plakar cryptography](https://www.plakar.io/posts/2025-02-28/audit-of-plakar-cryptography/index.md): Independent cryptographic audit of Plakar by Jean-Philippe Aumasson confirming a sound overall design, with recommendations to modernize components. Key improvements include switching to Argon2id for password hashing, AES-GCM-SIV for chunk encryption, AES-KW for key wrapping, and replacing SHA-256 digests with keyed BLAKE3 MACs. No major security issues were found, and follow-up review validated the updated architecture, algorithms, and implementation.
+- [Plakar beta release!](https://www.plakar.io/posts/2025-02-26/plakar-beta-release/index.md): First public beta of Plakar is out: scalable, encrypted, efficient, and open-source backups ready for real-world testing and feedback
+- [Understanding RTO and RPO in disaster recovery](https://www.plakar.io/posts/2025-02-12/understanding-rto-and-rpo-in-disaster-recovery/index.md): Learn how RTO and RPO define recovery speed and data loss tolerance—essential metrics for building resilient disaster recovery strategies
+- [The 3-2-1 backup rule: A proven strategy for data protection](https://www.plakar.io/posts/2025-02-11/the-3-2-1-backup-rule-a-proven-strategy-for-data-protection/index.md): Discover why the 3-2-1 backup rule remains the gold standard for protecting your data from deletion, disasters, and ransomware
+- [S3 is not a backup: why you need a real backup strategy](https://www.plakar.io/posts/2025-02-10/s3-is-not-a-backup-why-you-need-a-real-backup-strategy/index.md): S3 offers durable storage, not true backups. Learn why you need dedicated tools for secure, recoverable, and resilient data protection
+- [Why replication is not backup](https://www.plakar.io/posts/2025-02-10/why-replication-is-not-backup/index.md): Replication ensures availability, not recovery. Learn why true backups remain essential to protect against deletion, corruption, or malicious actions
+
+
+## [Plakar Integrations](https://www.plakar.io/integrations/index.md)
+
+- [OpenStack](https://www.plakar.io/integrations/openstack/index.md): Manage OpenStack from Plakar Control Plane end to end. Discover Nova servers, Cinder volumes and the other resources of a project automatically, and protect servers and volumes with encrypted, deduplicated backups and restores.
+
+- [MongoDB](https://www.plakar.io/integrations/mongodb/index.md): Protect your MongoDB deployments against accidental deletion, ransomware, and operator error. Plakar captures encrypted, deduplicated snapshots of a running server and restores them to any environment.
+
+- [NFS](https://www.plakar.io/integrations/nfs/index.md): Protect the shared storage your infrastructure runs on against accidental deletion, ransomware, and appliance failure. Plakar captures immutable, encrypted snapshots of NFS exports on NAS appliances and Unix file servers, restorable to any export or environment.
+
+- [SMB](https://www.plakar.io/integrations/smb/index.md): Protect the file shares your teams work from every day against accidental deletion, ransomware, and hardware failure. Plakar captures immutable, encrypted snapshots of SMB shares on Windows servers, NAS appliances, and Samba hosts, restorable to any share or environment.
+
+- [Impossible Cloud](https://www.plakar.io/integrations/impossible-cloud/index.md): Protect your data with Plakar on Impossible Cloud. Immutable, encrypted snapshots stored on fully S3-compatible object storage built under European data jurisdiction, with no egress fees, no API charges, and enterprise-grade compliance.
+
+- [Google Cloud (GCP)](https://www.plakar.io/integrations/gcp/index.md): Connect a Google Cloud project to Plakar Control Plane and automatically discover the resources running in it, keeping an up-to-date inventory as Cloud Storage buckets and CloudSQL instances are created or removed.
+
+- [Amazon Web Services (AWS)](https://www.plakar.io/integrations/aws/index.md): Manage AWS resources and credentials from Plakar Control Plane. Discover  resources automatically as your AWS account changes, and manage secrets  through AWS Secrets Manager instead of scattering credentials across scripts  and tools.
+
+- [Scaleway](https://www.plakar.io/integrations/scaleway/index.md): Manage Scaleway from Plakar Control Plane end to end. Discover Instances and Block Storage volumes automatically, manage secrets through Scaleway Secret Manager, and protect Instances, volumes, and the secrets themselves with encrypted, deduplicated backups and restores.
+
+- [OVHcloud](https://www.plakar.io/integrations/ovhcloud/index.md): Manage OVHcloud Public Cloud from Plakar Control Plane end to end. Discover compute instances, block storage volumes, and object storage automatically, manage secrets through OVHcloud's own secret store, and protect resources with encrypted, deduplicated backups and restores.
+
+- [Plakar Control Plane](https://www.plakar.io/integrations/pcp/index.md): Protect the Plakar Control Plane appliance against hardware failure, misconfiguration, or a full appliance replacement. Plakar backs up its own configuration and internal database into an encrypted, deduplicated Kloset snapshot.
+
+- [Microsoft SQL Server](https://www.plakar.io/integrations/mssql/index.md): Protect Microsoft SQL Server against accidental deletion, ransomware, and failed maintenance without taking the database offline to back it up. Plakar captures a consistent snapshot of a live SQL Server installation and restores it with confidence, on the original server or a new one.
+
+- [Microsoft Active Directory](https://www.plakar.io/integrations/msad/index.md): Protect Active Directory against the scenario replication can't fix: no  healthy Domain Controller left to recover from. Plakar captures encrypted  System State backups of Domain Controllers while they're healthy, ready to  bring Active Directory back after hardware failure, corruption, or ransomware.
+
+- [VMware](https://www.plakar.io/integrations/vmware/index.md): Protect virtual machines running on vCenter, ESXi, or a vSphere-based cloud platform against accidental deletion, ransomware, and infrastructure failure. Plakar discovers, backs up, and restores VMware workloads with independent, encrypted snapshots.
+
+- [Windows VSS](https://www.plakar.io/integrations/vss/index.md): Protect Windows Server workloads like Active Directory and SQL Server against accidental deletion, ransomware, and configuration mistakes. Plakar captures a consistent, point-in-time snapshot of a live Windows system and restores it with confidence, without taking anything offline.
+
+- [Vault](https://www.plakar.io/integrations/vault/index.md): Back up and restore a HashiCorp Vault cluster's secrets. Plakar exports a Vault cluster into an encrypted, deduplicated Kloset snapshot and restores it back to the same cluster or a freshly provisioned one.
+
+- [Backblaze B2](https://www.plakar.io/integrations/backblaze/index.md): Protect your data with Plakar on Backblaze B2 Cloud Storage. Immutable, encrypted snapshots stored on one of the most cost-effective S3-compatible object storage platforms available, with free egress and enterprise-grade security.
+
+- [WebDAV](https://www.plakar.io/integrations/webdav/index.md): Protect your WebDAV remotes against data loss and accidental deletion. Plakar provides encrypted, deduplicated snapshots of any WebDAV-compatible service, restorable to any environment.
+
+- [Azure Blob Storage](https://www.plakar.io/integrations/azblob/index.md): Protect your Azure Blob Storage containers against accidental deletion, ransomware, and misconfiguration. Plakar provides immutable, encrypted snapshots for Azure Blob Storage, restorable across any provider or environment.
+
+- [Google Cloud Storage](https://www.plakar.io/integrations/gcs/index.md): Protect your Google Cloud Storage buckets against accidental deletion, ransomware, and misconfiguration. Plakar provides immutable, encrypted snapshots for GCS, restorable across any provider or environment.
+
+- [OCI Registry](https://www.plakar.io/integrations/oci/index.md): Use your existing container registry infrastructure to store Plakar backups. Plakar encodes repository data as native OCI artifacts, giving you immutable, encrypted snapshots with registry-native replication and access controls.
+
+- [Kubernetes](https://www.plakar.io/integrations/kubernetes/index.md): Protect your Kubernetes infrastructure at every level. Plakar discovers cluster resources, backs up etcd for disaster recovery, manifests for granular inspection and restore, and persistent volumes via CSI snapshots. All encrypted, deduplicated, and portable across environments.
+
+- [Proxmox](https://www.plakar.io/integrations/proxmox/index.md): Protect your Proxmox clusters against data loss, ransomware, and misconfiguration. Plakar wraps native Proxmox backups into encrypted, deduplicated snapshots that are portable, verifiable, and restorable across clusters or storage backends.
+
+- [etcd](https://www.plakar.io/integrations/etcd/index.md): Protect your etcd cluster against data loss and node failures. Plakar takes encrypted, deduplicated snapshots of etcd cluster state, giving you a reliable recovery point when it matters most.
+
+- [MySQL / MariaDB](https://www.plakar.io/integrations/mysql/index.md): Protect your MySQL and MariaDB databases against data loss, accidental deletion, and misconfiguration. Plakar provides encrypted, deduplicated snapshots using the backup tools MySQL and MariaDB already ship with.
+
+- [PostgreSQL](https://www.plakar.io/integrations/postgres/index.md): Protect your PostgreSQL databases against data loss, accidental deletion, and misconfiguration. Plakar provides encrypted, deduplicated snapshots using either logical or physical backups, restorable to any environment.
+
+- [Dropbox](https://www.plakar.io/integrations/dropbox/index.md): Back up your Dropbox workloads with Plakar to protect against data loss, corruption, and ransomware. Immutable, encrypted, and restorable even offline and across environments.
+
+- [Filesystem](https://www.plakar.io/integrations/fs/index.md): Back up local directories and mounted filesystems to protect against accidental deletion, corruption, and ransomware. Versioned, encrypted, and fully restorable across systems.
+
+- [FTP](https://www.plakar.io/integrations/ftp/index.md): Back up and restore directories to and from remote FTP servers. Plakar provides encrypted, deduplicated, and verifiable snapshots for FTP-accessible environments.
+
+- [Google Drive](https://www.plakar.io/integrations/googledrive/index.md): Back up your Google Drive workloads with Plakar to protect against data loss, corruption, and ransomware. Create immutable, encrypted, and verifiable backups for your Google drive data.
+
+- [iCloud Drive](https://www.plakar.io/integrations/iclouddrive/index.md): Back up your iCloud Drive files with Plakar to protect against data loss, corruption, and ransomware. Create immutable, encrypted, and verifiable backups for your iCloud Drive data.
+
+- [IMAP](https://www.plakar.io/integrations/imap/index.md): Back up and restore IMAP mailboxes with end-to-end encryption, immutability, and verifiable integrity. Plakar ensures your email history remains protected across any IMAP-compatible mail server.
+
+- [Koofr](https://www.plakar.io/integrations/koofr/index.md): Back up your Koofr files with Plakar to protect against data loss, corruption, and ransomware. Create immutable, encrypted, and verifiable backups for your Koofr data.
+
+- [MinIO](https://www.plakar.io/integrations/minio/index.md): Back up your MinIO workloads with Plakar to protect against data loss, corruption, and ransomware. Immutable, encrypted, and restorable even offline and across environments.
+
+- [Notion](https://www.plakar.io/integrations/notion/index.md): Back up and restore Notion pages, databases, media, and comments. Plakar ensures encrypted, deduplicated, and verifiable snapshots of your entire workspace.
+
+- [OneDrive](https://www.plakar.io/integrations/onedrive/index.md): Back up your OneDrive files with Plakar to protect against data loss, corruption, and ransomware. Create immutable, encrypted, and verifiable backups for your OneDrive data.
+
+- [OpenDrive](https://www.plakar.io/integrations/opendrive/index.md): Back up your OpenDrive workloads with Plakar to protect against data loss, corruption, and ransomware. Plakar provides immutable, encrypted backups.
+
+- [Proton Drive](https://www.plakar.io/integrations/protondrive/index.md): Back up your Proton Drive workloads with Plakar to protect against data loss, corruption, and ransomware. Immutable, encrypted, and restorable even offline and across environments.
+
+- [Rclone](https://www.plakar.io/integrations/rclone/index.md): Back up and restore cloud storage services such as Google Drive, Dropbox, OneDrive and Proton Drive with Plakar, using rclone to reach them. Create immutable, encrypted, and verifiable backups of your cloud files.
+
+- [S3](https://www.plakar.io/integrations/s3/index.md): Protect your object storage against accidental deletion, ransomware, and cloud misconfigurations. Plakar provides immutable, encrypted snapshots for S3, restorable across any provider or environment.
+
+- [SFTP](https://www.plakar.io/integrations/sftp/index.md): Back up and restore directories to and from remote servers over SFTP. Plakar ensures encrypted, deduplicated, and verifiable snapshots across Linux, BSD, and NAS environments.
+
+- [Stdio](https://www.plakar.io/integrations/stdio/index.md): Back up and restore data directly via Stdio without creating temporary files. Plakar ensures encrypted, deduplicated, and verifiable snapshots for database dumps, logs, and automated pipelines.
+
+- [Tar](https://www.plakar.io/integrations/tar/index.md): Import data from existing tar archives into Plakar. Imported data is stored securely as deduplicated, verifiable snapshots.
+
+
+
+## [Download Plakar](https://www.plakar.io/download/index.md)
+
+- [Plakar Control Plane](index.md)
+- [Plakar v1.0.4](index.md): Official binaries and packages for Plakar v1.0.4 with integrity verification instructions.
+- [Plakar v1.0.5](index.md): Official binaries and packages for Plakar v1.0.5 with integrity verification instructions.
+- [Plakar v1.0.6](index.md): Official binaries and packages for Plakar v1.0.6 with integrity verification instructions.
+- [Plakar v1.1.0](index.md): Official binaries and packages for Plakar v1.1.0 with integrity verification instructions.
+- [Plakar v1.1.2](index.md): Official binaries and packages for Plakar v1.1.2 with integrity verification instructions.
+- [Plakar v1.1.3](index.md): Official binaries and packages for Plakar v1.1.3 with integrity verification instructions.
+- [Plakar v1.1.4](index.md): Official binaries and packages for Plakar v1.1.4 with integrity verification instructions.
+- [Plakar v1.1.5](index.md): Official binaries and packages for Plakar v1.1.5 with integrity verification instructions.
+- [Plakar v1.1.6](index.md): Official binaries and packages for Plakar v1.1.6 with integrity verification instructions.
+- [Plakar v1.1.7](index.md): Download binaries and packages for Plakar v1.1.7. All links are served from plakar.io.
+- [Plakar v1.1.8](index.md): Download binaries and packages for Plakar v1.1.8. All links are served from plakar.io.
+
+
+## [Branding](https://www.plakar.io/branding/index.md)
+
+
+
+## [Changelog](https://www.plakar.io/changelog/index.md)
+
+- [Plakar](https://www.plakar.io/changelog/plakar/index.md)
+- [Plakar Operator](https://www.plakar.io/changelog/plakar-operator/index.md)
+- [Azure Blob Storage](https://www.plakar.io/changelog/azblob/index.md)
+- [Filesystem](https://www.plakar.io/changelog/fs/index.md)
+- [HTTP](https://www.plakar.io/changelog/http/index.md)
+- [LDAP](https://www.plakar.io/changelog/ldap/index.md)
+- [PostgreSQL](https://www.plakar.io/changelog/postgresql/index.md)
+- [PTAR](https://www.plakar.io/changelog/ptar/index.md)
+- [RouterOS](https://www.plakar.io/changelog/routeros/index.md)
+- [Scaleway](https://www.plakar.io/changelog/scaleway/index.md)
+- [Tar](https://www.plakar.io/changelog/tar/index.md)
+- [Kubernetes](https://www.plakar.io/changelog/k8s/index.md)
+- [FTP](https://www.plakar.io/changelog/ftp/index.md)
+- [MySQL](https://www.plakar.io/changelog/mysql/index.md)
+- [OpenStack](https://www.plakar.io/changelog/openstack/index.md)
+- [SFTP](https://www.plakar.io/changelog/sftp/index.md)
+- [Rclone](https://www.plakar.io/changelog/rclone/index.md)
+- [S3](https://www.plakar.io/changelog/s3/index.md)
+
+
+## [Community](https://www.plakar.io/community/index.md)
+
+
+
+## [Contact](https://www.plakar.io/contact/index.md)
+
+
+
+## [Discord](https://www.plakar.io/discord/index.md)
+
+
+
+## [Documentation](https://www.plakar.io/docs/index.md)
+
+- [Control Plane Docs](https://www.plakar.io/docs/control-plane/index.md): Plakar Control Plane documentation hub, find guides, references, and resources for working with Plakar Control Plane.
+- [Community Docs](https://www.plakar.io/docs/community/index.md)
+
+
+## [Plakar Community](https://www.plakar.io/plakar-community/index.md)
+
+
+
+## [Solutions](https://www.plakar.io/solutions/index.md)
+
+- [AWS](https://www.plakar.io/solutions/aws/index.md)
+- [Compare](https://www.plakar.io/solutions/compare/index.md)
+- [Control Plane](https://www.plakar.io/solutions/control-plane/index.md)
+- [Cost Efficiency](https://www.plakar.io/solutions/cost-efficiency/index.md)
+- [On-Premises](https://www.plakar.io/solutions/on-premises/index.md)
+- [Posture management](https://www.plakar.io/solutions/posture-management/index.md)
+- [Ransomware recovery](https://www.plakar.io/solutions/ransomware-recovery/index.md)
+- [Resilience as Code](https://www.plakar.io/solutions/resilience-as-code/index.md)
+- [Strategic autonomy](https://www.plakar.io/solutions/strategic-autonomy/index.md)
+
+
+## [The Nestor Sticker Collection](https://www.plakar.io/community/goodies/index.md)
+
+
+
+

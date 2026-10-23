@@ -2,81 +2,151 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Backup on Plakar | The Open Standard for Backup and Restore</title>
-    <link>https://plakar.io/tags/backup/</link>
+    <link>https://www.plakar.io/tags/backup/</link>
     <description>Recent content in Backup on Plakar | The Open Standard for Backup and Restore</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
+    <language>en-us</language>
     <copyright>© 2026 PlakarKorp</copyright>
-    <lastBuildDate>Wed, 29 Apr 2026 22:01:48 +0200</lastBuildDate><atom:link href="https://plakar.io/tags/backup/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 23 Oct 2026 20:34:11 +0200</lastBuildDate><atom:link href="https://www.plakar.io/tags/backup/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Take a Glance: Plakar&#39;s OpenStack backup is now free in Plakar Community</title>
+      <link>https://www.plakar.io/posts/2026-10-22/backing-up-openstack-with-plakar/</link>
+      <pubDate>Thu, 22 Oct 2026 00:00:00 +1400</pubDate>
+      
+      <guid>https://www.plakar.io/posts/2026-10-22/backing-up-openstack-with-plakar/</guid>
+      <description>Plakar&amp;rsquo;s OpenStack backup is now free in Plakar Community (OSS): back up and restore Cinder volumes and Nova servers through the OpenStack APIs. No agent. Encrypted and deduplicated.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.plakar.io/posts/2026-10-22/backing-up-openstack-with-plakar/featured.png" />
+    </item>
+    
+    <item>
+      <title>Backing up MongoDB with Plakar</title>
+      <link>https://www.plakar.io/posts/2026-10-13/backing-up-mongodb-with-plakar/</link>
+      <pubDate>Tue, 13 Oct 2026 00:00:00 +1400</pubDate>
+      
+      <guid>https://www.plakar.io/posts/2026-10-13/backing-up-mongodb-with-plakar/</guid>
+      <description>Plakar now backs up MongoDB. One package, a connection string, and your collections land encrypted and deduplicated in a store you own. Our first NoSQL database, after PostgreSQL, MySQL, MariaDB and SQL Server.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.plakar.io/posts/2026-10-13/backing-up-mongodb-with-plakar/featured.png" />
+    </item>
+    
+    <item>
+      <title>Backing up VMware for free with Plakar OSS</title>
+      <link>https://www.plakar.io/posts/2026-10-08/backing-up-vmware-with-plakar-oss/</link>
+      <pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.plakar.io/posts/2026-10-08/backing-up-vmware-with-plakar-oss/</guid>
+      <description>Plakar&amp;rsquo;s VMware integration, previously only in the Plakar Control Plane, is now available in Plakar OSS: free for registered Plakar users, with encrypted, deduplicated backups of running VMs stored in an open, portable format.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.plakar.io/posts/2026-10-08/backing-up-vmware-with-plakar-oss/featured.png" />
+    </item>
+    
+    <item>
+      <title>Resilience as Code, because backup should be Infrastructure.</title>
+      <link>https://www.plakar.io/posts/2026-09-23/resilience-as-code-kubernetes-operator/</link>
+      <pubDate>Wed, 23 Sep 2026 10:00:00 +0100</pubDate>
+      
+      <guid>https://www.plakar.io/posts/2026-09-23/resilience-as-code-kubernetes-operator/</guid>
+      <description>Backup is the last layer of your stack still clicked into a console. The Plakar Kubernetes Operator makes it code: declare resilience as Custom Resources, reconciled from Git, for everything you run.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.plakar.io/posts/2026-09-23/resilience-as-code-kubernetes-operator/featured.png" />
+    </item>
+    
+    <item>
+      <title>Agentless VSS and SQL Server backup now available in Plakar</title>
+      <link>https://www.plakar.io/posts/2026-09-08/agentless-vss-sql-server-backup/</link>
+      <pubDate>Tue, 08 Sep 2026 10:00:00 +0100</pubDate>
+      
+      <guid>https://www.plakar.io/posts/2026-09-08/agentless-vss-sql-server-backup/</guid>
+      <description>VSS and SQL Server backups are now free for registered Plakar users: agentless over SSH, encrypted and deduplicated into an open, portable Kloset store. The connectors are closed source, built for Control Plane. Active Directory recovery is a Plakar Control Plane capability.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.plakar.io/posts/2026-09-08/agentless-vss-sql-server-backup/featured.png" />
+    </item>
+    
+    <item>
+      <title>Build a Docs Wayback Machine with Astro</title>
+      <link>https://www.plakar.io/posts/2026-09-07/docs-wayback-machine/</link>
+      <pubDate>Mon, 07 Sep 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.plakar.io/posts/2026-09-07/docs-wayback-machine/</guid>
+      <description>Serve any past version of your documentation at a URL, decrypted from a Plakar snapshot on demand, with pages, images, and PDFs restored version-correct.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.plakar.io/posts/2026-09-07/docs-wayback-machine/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>10 Reasons You Need an Independent, Offsite Backup in 2026</title>
+      <link>https://www.plakar.io/posts/2026-08-12/independent-backup-reasons/</link>
+      <pubDate>Wed, 12 Aug 2026 10:00:00 +0100</pubDate>
+      
+      <guid>https://www.plakar.io/posts/2026-08-12/independent-backup-reasons/</guid>
+      <description>Cloud storage isn&amp;rsquo;t a backup strategy. 10 reasons you need an independent, offsite backup you control, from ransomware and rogue AI agents to climate, conflict, and storage cost.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.plakar.io/posts/2026-08-12/independent-backup-reasons/featured.png" />
+    </item>
     
     <item>
       <title>Release v1.0.6 — Bugfix and memory usage improvement</title>
-      <link>https://plakar.io/posts/2025-11-30/release-v1.0.6-bugfix-and-memory-usage-improvement/</link>
+      <link>https://www.plakar.io/posts/2025-11-30/release-v1.0.6-bugfix-and-memory-usage-improvement/</link>
       <pubDate>Sun, 30 Nov 2025 10:00:00 +0100</pubDate>
       
-      <guid>https://plakar.io/posts/2025-11-30/release-v1.0.6-bugfix-and-memory-usage-improvement/</guid>
+      <guid>https://www.plakar.io/posts/2025-11-30/release-v1.0.6-bugfix-and-memory-usage-improvement/</guid>
       <description>v1.0.6 brings a few bugfixes and huge memory usage improvements.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://plakar.io/posts/2025-11-30/release-v1.0.6-bugfix-and-memory-usage-improvement/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.plakar.io/posts/2025-11-30/release-v1.0.6-bugfix-and-memory-usage-improvement/featured.png" />
     </item>
     
     <item>
       <title>Release v1.0.5 — Refinements, Hooks &amp; Build Improvements</title>
-      <link>https://plakar.io/posts/2025-10-15/release-v1.0.5-refinements-hooks-build-improvements/</link>
+      <link>https://www.plakar.io/posts/2025-10-15/release-v1.0.5-refinements-hooks-build-improvements/</link>
       <pubDate>Wed, 15 Oct 2025 10:00:00 +0100</pubDate>
       
-      <guid>https://plakar.io/posts/2025-10-15/release-v1.0.5-refinements-hooks-build-improvements/</guid>
+      <guid>https://www.plakar.io/posts/2025-10-15/release-v1.0.5-refinements-hooks-build-improvements/</guid>
       <description>v1.0.5 is here! This release focuses on build improvements, UI updates, smarter pipelines, new hook capabilities, and various maintenance enhancements.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://plakar.io/posts/2025-10-15/release-v1.0.5-refinements-hooks-build-improvements/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.plakar.io/posts/2025-10-15/release-v1.0.5-refinements-hooks-build-improvements/featured.png" />
     </item>
     
     <item>
       <title>Falsehoods Engineers belief about backup</title>
-      <link>https://plakar.io/posts/2025-09-17/falsehoods-engineers-believe-about-backup/</link>
+      <link>https://www.plakar.io/posts/2025-09-17/falsehoods-engineers-believe-about-backup/</link>
       <pubDate>Wed, 17 Sep 2025 10:00:00 +0100</pubDate>
       
-      <guid>https://plakar.io/posts/2025-09-17/falsehoods-engineers-believe-about-backup/</guid>
+      <guid>https://www.plakar.io/posts/2025-09-17/falsehoods-engineers-believe-about-backup/</guid>
       <description>Falsehoods Engineers belief about backup</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://plakar.io/posts/2025-09-17/falsehoods-engineers-believe-about-backup/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.plakar.io/posts/2025-09-17/falsehoods-engineers-believe-about-backup/featured.png" />
     </item>
     
     <item>
       <title>Understanding RTO and RPO in disaster recovery</title>
-      <link>https://plakar.io/posts/2025-02-12/understanding-rto-and-rpo-in-disaster-recovery/</link>
+      <link>https://www.plakar.io/posts/2025-02-12/understanding-rto-and-rpo-in-disaster-recovery/</link>
       <pubDate>Wed, 12 Feb 2025 02:11:00 +0100</pubDate>
       
-      <guid>https://plakar.io/posts/2025-02-12/understanding-rto-and-rpo-in-disaster-recovery/</guid>
+      <guid>https://www.plakar.io/posts/2025-02-12/understanding-rto-and-rpo-in-disaster-recovery/</guid>
       <description>Learn how RTO and RPO define recovery speed and data loss tolerance—essential metrics for building resilient disaster recovery strategies</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://plakar.io/posts/2025-02-12/understanding-rto-and-rpo-in-disaster-recovery/featured.svg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.plakar.io/posts/2025-02-12/understanding-rto-and-rpo-in-disaster-recovery/featured.svg" />
     </item>
     
     <item>
       <title>The 3-2-1 backup rule: A proven strategy for data protection</title>
-      <link>https://plakar.io/posts/2025-02-11/the-3-2-1-backup-rule-a-proven-strategy-for-data-protection/</link>
+      <link>https://www.plakar.io/posts/2025-02-11/the-3-2-1-backup-rule-a-proven-strategy-for-data-protection/</link>
       <pubDate>Tue, 11 Feb 2025 14:24:00 +0100</pubDate>
       
-      <guid>https://plakar.io/posts/2025-02-11/the-3-2-1-backup-rule-a-proven-strategy-for-data-protection/</guid>
+      <guid>https://www.plakar.io/posts/2025-02-11/the-3-2-1-backup-rule-a-proven-strategy-for-data-protection/</guid>
       <description>Discover why the 3-2-1 backup rule remains the gold standard for protecting your data from deletion, disasters, and ransomware</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://plakar.io/posts/2025-02-11/the-3-2-1-backup-rule-a-proven-strategy-for-data-protection/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.plakar.io/posts/2025-02-11/the-3-2-1-backup-rule-a-proven-strategy-for-data-protection/featured.png" />
     </item>
     
     <item>
       <title>S3 is not a backup: why you need a real backup strategy</title>
-      <link>https://plakar.io/posts/2025-02-10/s3-is-not-a-backup-why-you-need-a-real-backup-strategy/</link>
+      <link>https://www.plakar.io/posts/2025-02-10/s3-is-not-a-backup-why-you-need-a-real-backup-strategy/</link>
       <pubDate>Mon, 10 Feb 2025 15:12:00 +0100</pubDate>
       
-      <guid>https://plakar.io/posts/2025-02-10/s3-is-not-a-backup-why-you-need-a-real-backup-strategy/</guid>
+      <guid>https://www.plakar.io/posts/2025-02-10/s3-is-not-a-backup-why-you-need-a-real-backup-strategy/</guid>
       <description>S3 offers durable storage, not true backups. Learn why you need dedicated tools for secure, recoverable, and resilient data protection</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://plakar.io/posts/2025-02-10/s3-is-not-a-backup-why-you-need-a-real-backup-strategy/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.plakar.io/posts/2025-02-10/s3-is-not-a-backup-why-you-need-a-real-backup-strategy/featured.png" />
     </item>
     
     <item>
       <title>Why replication is not backup</title>
-      <link>https://plakar.io/posts/2025-02-10/why-replication-is-not-backup/</link>
+      <link>https://www.plakar.io/posts/2025-02-10/why-replication-is-not-backup/</link>
       <pubDate>Mon, 10 Feb 2025 15:02:00 +0100</pubDate>
       
-      <guid>https://plakar.io/posts/2025-02-10/why-replication-is-not-backup/</guid>
+      <guid>https://www.plakar.io/posts/2025-02-10/why-replication-is-not-backup/</guid>
       <description>Replication ensures availability, not recovery. Learn why true backups remain essential to protect against deletion, corruption, or malicious actions</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://plakar.io/posts/2025-02-10/why-replication-is-not-backup/featured.webp" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://www.plakar.io/posts/2025-02-10/why-replication-is-not-backup/featured.webp" />
     </item>
     
   </channel>

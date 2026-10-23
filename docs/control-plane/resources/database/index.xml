@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Database on Plakar | The Open Standard for Backup and Restore</title>
+    <link>https://www.plakar.io/docs/control-plane/resources/database/</link>
+    <description>Recent content in Database on Plakar | The Open Standard for Backup and Restore</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2026 PlakarKorp</copyright>
+    <lastBuildDate>Fri, 23 Oct 2026 20:34:11 +0200</lastBuildDate><atom:link href="https://www.plakar.io/docs/control-plane/resources/database/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Microsoft SQL Server</title>
+      <link>https://www.plakar.io/docs/control-plane/resources/database/mssql/</link>
+      <pubDate>Tue, 21 Jul 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.plakar.io/docs/control-plane/resources/database/mssql/</guid>
+      <description>How to configure a Microsoft SQL Server resource in Plakar Control Plane.</description>
+      
+    </item>
+    
+    <item>
+      <title>MySQL</title>
+      <link>https://www.plakar.io/docs/control-plane/resources/database/mysql/</link>
+      <pubDate>Wed, 02 Sep 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.plakar.io/docs/control-plane/resources/database/mysql/</guid>
+      <description>How to configure a MySQL resource in Plakar Control Plane.</description>
+      
+    </item>
+    
+    <item>
+      <title>PostgreSQL</title>
+      <link>https://www.plakar.io/docs/control-plane/resources/database/postgres/</link>
+      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.plakar.io/docs/control-plane/resources/database/postgres/</guid>
+      <description>How to configure a PostgreSQL resource in Plakar Control Plane.</description>
+      
+    </item>
+    
+    <item>
+      <title>etcd</title>
+      <link>https://www.plakar.io/docs/control-plane/resources/database/etcd/</link>
+      <pubDate>Fri, 04 Sep 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.plakar.io/docs/control-plane/resources/database/etcd/</guid>
+      <description>How to configure an etcd resource in Plakar Control Plane.</description>
+      
+    </item>
+    
+    <item>
+      <title>MongoDB</title>
+      <link>https://www.plakar.io/docs/control-plane/resources/database/mongodb/</link>
+      <pubDate>Tue, 22 Sep 2026 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.plakar.io/docs/control-plane/resources/database/mongodb/</guid>
+      <description>How to configure a MongoDB resource in Plakar Control Plane.</description>
+      
+    </item>
+    
+  </channel>
+</rss>
